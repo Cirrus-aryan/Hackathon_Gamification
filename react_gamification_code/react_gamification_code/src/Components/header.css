@@ -1,0 +1,87 @@
+/* Header Layout */
+.header-wrapper {
+  width: 100%;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+.top-bar .left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-bar h1 {
+  font-size: 24px;
+  color: #222;
+  margin: 0;
+}
+
+.badge {
+  font-size: 13px;
+  padding: 4px 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 999px;
+  color: #555;
+  background-color: #f5f5f5;
+}
+
+.right {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f0f0f0;
+}
+
+.btn.publish {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+}
+
+.btn.publish:hover {
+  background-color: #0b5ed7;
+}
+
+/* Tabs */
+.tabs-bar {
+  display: flex;
+  background-color: #f9fbfc;
+  padding: 12px 24px;
+  gap: 16px;
+}
+
+.tab-button {
+  padding: 10px 18px;
+  background-color: transparent;
+  border: none;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.tab-button.active {
+  border: 2px solid #0d6efd;
+  background-color: white;
+  color: black;
+}
